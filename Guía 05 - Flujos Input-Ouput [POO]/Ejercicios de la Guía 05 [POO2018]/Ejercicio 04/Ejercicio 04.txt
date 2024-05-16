@@ -1,0 +1,12 @@
+materia = Programacion Orientada a Objetos
+carrera = Ingenieria en Informatica
+facultad = Facultad de Ingenieria y Ciencias Hidricas
+universidad = Universidad Nacional del Litoral
+#esta linea hay que ignorarla, igual que a las 3 ultimas
+nro_unidad = 5
+nombre_unidad = Flujos de entrada/salida
+otro_campo = otro_valor
+otro_campo_mas = otro_valor_mas
+#campo_que_no_se_lee_1 =basura
+#campo_que_no_se_lee_2 =basura
+#campo_que_no_se_lee_3 =basura

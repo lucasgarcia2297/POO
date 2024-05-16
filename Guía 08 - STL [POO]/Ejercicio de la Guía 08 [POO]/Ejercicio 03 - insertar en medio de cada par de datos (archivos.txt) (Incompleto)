@@ -1,0 +1,47 @@
+#include <iostream>
+#include <cstdlib>
+#include <ctime>
+#include <list>
+#include <algorithm>
+using namespace std;
+template<typename T>
+void mostrar(T L){
+	for(float x : L)
+		cout << x << "  ";
+	cout << endl;
+}
+float rand_100(){	
+	float x= (rand()%10);
+	return x;
+}
+
+int main(int argc, char *argv[]) {
+	int n = 6;
+	list<float> L(n);
+//	for(int i=0;i<n;i++) { 
+//		int valor;
+//		cout << "Valor: ";
+//		cin >> valor;
+//	}	
+	srand(time(0));
+	generate(L.begin(),L.end(),rand_100);
+	mostrar(L);
+	
+//	list<float>::iterator a, b;
+//	for( list<int>::iterator it=L.begin(); it!=L.end(); ++it) {  
+//		a = it;
+//		b = ++it;
+//		L.insert(++it,(*(a)+*(b))/(-2.0));
+//	}
+	list<float>::iterator it2;
+	for( auto it = next(L.begin()); it!=L.end(); advance(it,2)) { 
+		float prom = (*it  + *prev(it))/2.0;
+		it = next(it);
+		it = L.insert((it), prom);
+		
+	}
+		cout << "Lista modificada: "<< endl;
+		mostrar(L);
+	return 0;
+}
+

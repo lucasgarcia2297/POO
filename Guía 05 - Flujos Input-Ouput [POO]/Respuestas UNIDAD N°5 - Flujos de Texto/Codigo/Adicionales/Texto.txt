@@ -1,0 +1,10 @@
+materia=Programacion_Orientada_a_Objetos.
+carrera=Ingenieria_en_Informatica.
+facultad=Facultad_de_Ingenieria_y_Ciencias_Hidricas.
+universidad=Universidad_Nacional_del_Litoral.
+nro_unidad=6.
+nombre_unidad=Flujos_de_Entrada/Salida
+otro_campo=otro_valor
+otro_campo_mas=otro_valor_mas.
+
+

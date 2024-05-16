@@ -1,0 +1,13 @@
+#ejemplo_de_archivo_de_configuracion
+materia=Programacion_Orientada_a_Objetos
+carrera=Ingenieria_en_Informatica
+facultad=Facultad_de_Ingenieria_y_Ciencias_Hidricas
+universidad=Universidad_Nacional_del_Litoral
+#esta_lilnea_hay_que_ignorarla,_igual_que_las_3_ultimas
+nro_unidad=5
+nombre_unidad=Flujos_de_Entrada/Salida
+otro_campo=otro_valor
+otro_campo_mas=otro_valor_mas
+#campo_que_no_se_lee_1=basura
+#campo_que_no_se_lee_2=basura
+#campo_que_no_se_lee_3=basura
